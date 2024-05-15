@@ -1,0 +1,243 @@
+.Profile {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    padding-top: 16rem;
+    background: rgb(249 249 249) opacify($color: #000000, $amount: 1);
+
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .container {
+        width: 85%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .col1 {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        height: 590px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25);
+        padding: 0px 30px;
+        box-sizing: content-box;
+
+        .tren {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            border-bottom: 1px solid lightgray;
+            padding: 20px 5px;
+
+            .avatar {
+                background-color: lightgray;
+                border-radius: 50%;
+                padding: 25px;
+                margin-bottom: 5px;
+                margin-left: 40px;
+            }
+
+            .name-start {
+                margin: 0px 30px;
+
+                p {
+                    margin: 0px 4px;
+                }
+
+                .i2 {
+                    margin: 0px 4px;
+                }
+            }
+        }
+
+        .chi-tieu {
+            display: flex;
+            margin-top: 20px;
+
+            .d {
+                color: rgb(245 128 32);
+                margin-left: auto;
+            }
+        }
+
+        .thanh-tich {
+            .image {
+                width: 100%;
+                height: auto;
+                margin-top: 30px;
+            }
+        }
+
+        .hotline {
+            margin-top: auto;
+            margin-bottom: 15px;
+
+            a {
+                color: rgb(3 78 162);
+            }
+
+            h5 {
+                margin: 10px;
+            }
+        }
+
+
+    }
+
+    .col2 {
+        width: 70%;
+        margin-left: 30px;
+
+        .ulProfile {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            border-bottom: 1px solid lightgray;
+
+            // .tt {
+            //     color: rgb(3 78 162);
+            //     opacity: 100%;
+            //     border-bottom: 2px solid rgb(3 78 162);
+            // }
+
+            li {
+                font-weight: bold;
+                opacity: 0.3;
+                margin-left: 45px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid lightgray;
+
+                &:active {
+                    color: rgb(3 78 162);
+                    opacity: 100%;
+                    border-bottom: 2px solid rgb(3 78 162);
+                }
+            }
+            .select-active{
+                color: rgb(3 78 162);
+                    opacity: 100%;
+                    border-bottom: 2px solid rgb(3 78 162);
+            }
+
+        }
+
+
+    }
+
+    .ttcn {
+        width: 850px;
+        height: 350px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25);
+        margin-top: 20px;
+        padding: 20px;
+        display: flex;
+
+        input {
+            width: 100%;
+            padding: 10px 15px;
+            margin: 15px 0px;
+            background-color: rgb(233, 233, 233);
+            color: gray;
+            font-size: 13px;
+            border: 0px;
+            border-radius: 5px;
+        }
+
+        .left {
+            width: 50%;
+            padding: 5px 15px;
+
+
+            .gioitinh {
+                display: flex;
+                margin-top: 100px;
+
+                >div {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 30px;
+
+                    >label {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            width: 50%;
+            padding: 5px;
+
+            >div {
+                display: flex;
+            }
+
+            .btn {
+                
+                // 2 button Delete va Cap nhat
+                display: flex;
+                justify-content: flex-end;
+                gap: 10px;
+                button {
+                    background-color: rgb(245 128 32);
+                    color: white;
+                    border: 0px;
+                    border-radius: 5px;
+                    padding: 10px 20px;
+                    margin-top: 70px;
+                }
+
+                .Delete {
+                    background-color: red !important;
+                }
+            }
+        }
+    }
+
+
+    .thaydoi {
+        position: relative;
+        display: flex;
+
+        span {
+            position: absolute;
+            z-index: 2;
+            margin-left: 295px;
+            margin-top: 21px;
+            font-size: 13px;
+            color: rgb(245 128 32);
+            font-weight: bold;
+
+            &:hover {
+                font-size: 15px;
+            }
+        }
+
+        input {
+            position: absolute;
+            z-index: 1;
+        }
+
+    }
+
+
+    .flex {
+        display: flex;
+    }
+
+    .just-center {
+        justify-content: center;
+    }
+
+    .ali-center {
+        align-items: center;
+    }
+
+    // .sha{
+    //     0 25px 50px -12px rgba(0,0,0,.25);
+    // }
+}

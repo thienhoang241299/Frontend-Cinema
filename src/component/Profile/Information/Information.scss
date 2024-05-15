@@ -1,0 +1,57 @@
+
+    .ChangePass{
+        height: 320px !important;
+        border-radius: 15px;
+        padding: 10px;
+        box-sizing: border-box;
+
+        input{
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        button{
+            width: 100%;
+            padding: 11px;
+            border-radius: 5px;
+            background-color: rgb(242 107 56);
+            color: white;
+            margin: 12px 0px;
+            border: 0px;
+        }
+
+    }
+
+    .xoa{
+        height: 310px !important;
+        border-radius: 15px;
+        padding: 10px;
+        box-sizing: border-box;
+
+        input{
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .btn{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            button{
+            
+                width: 250px;
+                padding: 11px;
+                border-radius: 5px;
+                background-color: red;
+                font-weight: bold;
+                color: white;
+                
+                margin: 12px 0px;
+                border: 0px;
+            }
+        }
+        
+
+    }

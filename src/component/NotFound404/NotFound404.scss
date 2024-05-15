@@ -1,0 +1,124 @@
+$color_1: #f9f9f9;
+$background-color_1: rgba(255, 255, 255, 1);
+$background-color_2: #e8584f59;
+$background-color_3: #e7584f;
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Oswald&display=swap');
+@import url(https://db.onlinewebfonts.com/c/38d41072aa88a50711d4d50dd0d50f6b?family=Neue+Machina+Regular);
+
+.NotFound {
+    background-color: $background-color_1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+    .div {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.37) 46.46%, rgba(0, 0, 0, 0.1) 100%), url(./notFound.jpg);
+        background-color: $background-color_1;
+        background-position: 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+        width: 1920px;
+    }
+
+    .text-wrapper {
+        color: $color_1;
+        font-family: "Neue Machina Regular";
+        font-size: 72px;
+        font-weight: 400;
+        left: 164px;
+        letter-spacing: 0;
+        line-height: 93.6px;
+        position: absolute;
+        top: 200px;
+        width: 613px;
+    }
+
+    .p {
+        color: $color_1;
+        font-family: "Neue Machina Regular";
+        font-size: 28px;
+        font-weight: 400;
+        left: 164px;
+        letter-spacing: 0;
+        line-height: 45.2px;
+        position: absolute;
+        top: 480px;
+        width: 796px;
+    }
+
+    .p2 {
+        color: $color_1;
+        font-family: "Neue Machina Regular";
+        font-size: 28px;
+        font-weight: 400;
+        left: 164px;
+        letter-spacing: 0;
+        line-height: 45.2px;
+        position: absolute;
+        top: 530px;
+        width: 796px;
+    }
+
+    .button-back-to-home {
+        height: 102px;
+        left: 164px;
+        position: absolute;
+        top: 700px;
+        width: 421px;
+    }
+
+    .overlap-group {
+        height: 102px;
+        position: relative;
+        width: 419px;
+    }
+
+    .rectangle {
+        background-color: $background-color_2;
+        border-radius: 50px;
+        filter: blur(54px);
+        height: 69px;
+        left: 0;
+        position: absolute;
+        top: 33px;
+        width: 419px;
+    }
+
+    .rectangle-2 {
+        background-color: $background-color_3;
+        border-radius: 50px;
+        height: 79px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 419px;
+    }
+
+    .text-wrapper-2 {
+        color: $color_1;
+        font-family: "Neue Machina Regular";
+        font-size: 28px;
+        font-weight: 400;
+        height: 79px;
+        left: 120px;
+        letter-spacing: 0;
+        line-height: 25px;
+        position: absolute;
+        top: 26px;
+        width: 419px;
+    }
+
+    .gif {
+        position: absolute;
+        right: 160px;
+        top: 200px;
+        text-align: right;
+        height: 80%;
+
+        >img {
+            width: 60%;
+        }
+    }
+}

@@ -1,0 +1,199 @@
+.local-cinema{
+    padding-top: 5rem;
+}
+.arrow-left{
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    top: 58%;
+    left: 120px;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+.arrow-right{
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    top: 58%;
+    right: 120px;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+.cinema-silder{
+    position: relative;
+    overflow: hidden;
+}
+.detail-cinema{
+    width: 100%;
+    display: flex;
+    .cinema-name{
+        width: 50%;
+        padding-left: 7%;
+        box-sizing: border-box;
+    }
+    .select-cinema{
+        gap: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        >select{
+            padding: 0 5px;
+            box-sizing: border-box;
+            width: 25%;
+            height: 25%;
+            border-radius: 10px;
+            transition: ease 1s ;
+        }
+        >select:focus{
+            outline: none;
+        }
+        >select:hover{
+            border: 1px solid blue;
+        }
+    }
+}
+.select-date-film{
+    padding: 0 7%;
+}
+.bg-black{
+    background-color: #f4f4f4;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+.discount-film{
+    width: 100%;
+    padding: 0 6%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    h2{
+        margin: 15px 0;
+        border-left: 5px solid #6366f1;
+        font-size: 20px;
+        padding: 0.2% 0.7%;
+    }
+    .discount-img{
+        width: 50%;
+        img{
+            width: 85%;
+        }
+    }
+    .infor-cinema{
+        width: 50%;
+    }
+
+}
+.movie-container{
+    margin: 20px auto;
+    width: 90%;
+    padding: 0 1%;
+    box-sizing: border-box;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 15px;
+    h2{
+        margin: 0;
+        margin-top: 10px;
+        border-left: 5px solid #6366f1;
+        font-size: 20px;
+        padding: 0.2% 0.5%;
+    }
+    .border{
+        border: 1px solid #6366f1;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .movie-schedule{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        .select-movie{
+            border-radius: 10px;
+            padding: 5px 15px;
+            text-align: center;
+            line-height: 15px;
+        }
+        .select-movie:hover{
+            color: white;
+            background-color: #6366f1;
+            transition: ease 0.5s;
+            cursor: pointer;
+        }
+        .select-movie-active{
+            border-radius: 10px;
+            padding: 5px 15px;
+            text-align: center;
+            line-height: 15px;
+            color: white;
+            background-color: #6366f1;
+        }
+        
+    }
+    .movie-schedule-detail{
+        ::-webkit-scrollbar{
+            height: 10px;
+        }
+        ::-webkit-scrollbar-track{
+                background: white;
+        }
+        ::-webkit-scrollbar-thumb{
+                background: #888;
+                border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover{
+                background: #555;
+        }
+        .movie-schedule-content{
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 5px;
+            gap: 5%;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            >div{
+                text-align: center;
+                cursor: pointer;
+                >img{
+                    border-radius: 15px;
+                    width: 250px;
+                }
+            }    
+        }
+    }
+}
+.time-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 10px;
+    p{
+        margin: 0;
+    }
+    .time-detail{
+        gap: 20px;
+        display: flex;
+        flex-direction: row;
+        a{
+            text-decoration: none;
+        }
+        p{
+            color: black;
+            border-radius: 5px;
+            text-align: center;
+            padding: 5px 5px;
+            border: 1px solid gray;
+            margin: 0;
+        }
+        p:hover{
+            transition: 0.5s ease;
+            background-color: #6366f1;
+            color: white;
+            cursor: pointer;
+        } 
+        
+    } 
+}

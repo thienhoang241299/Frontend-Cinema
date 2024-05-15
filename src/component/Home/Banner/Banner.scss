@@ -1,0 +1,38 @@
+.banner {
+
+    >.card {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.68) 46.46%, rgba(0, 0, 0, 0.5) 100%), url('https://i.pinimg.com/originals/09/31/56/0931565a0d746475587c354eda30be25.jpg');
+
+        >div {
+            max-width: 100% !important;
+            width: 77%;
+            margin: auto;
+
+            >.p-galleria-content {
+                .p-galleria-caption {
+                    bottom: 6rem !important;
+                }
+
+                .p-galleria-thumbnail-container {
+                    padding: 0.5rem 0.25rem !important;
+                    background-color: rgba(0, 0, 0) !important;
+                    ;
+                }
+
+                .p-galleria-thumbnail-wrapper {
+                    margin-top: -5rem;
+                    background: rgba(0, 0, 0, 0.5) !important;
+
+                    .p-galleria-thumbnail-item {
+                        img {
+                            height: 4rem !important;
+                        }
+                    }
+                }
+
+            }
+
+
+        }
+    }
+}

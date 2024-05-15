@@ -1,0 +1,75 @@
+.ComboBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .Combo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 15px 60px;
+        border-radius: 10px;
+
+        img {
+            height: auto;
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+
+
+
+    .a {
+        display: flex;
+        margin-bottom: 1rem;
+        background: rgb(241, 241, 241);
+        padding: 1rem;
+        box-sizing: border-box;
+        border-radius: 1rem;
+        box-shadow: 5px 5px 5px lightgrey;
+
+        >.image {
+            width: 15%;
+        }
+
+        .b {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-left: 10px;
+            box-sizing: border-box;
+        }
+
+        .gia {
+            display: flex;
+            justify-content: space-between;
+
+            .num {
+                display: flex;
+                align-items: center;
+                padding: 2px 15px;
+                margin-left: auto;
+                background-color: white;
+                border-radius: 1rem;
+                border: 0;
+                box-shadow: 5px 5px 5px lightgrey;
+
+                button {
+                    padding: 5px;
+                    margin: 0px 5px;
+                    border: 0px;
+                    background-color: white;
+                }
+            }
+        }
+    }
+
+
+
+}

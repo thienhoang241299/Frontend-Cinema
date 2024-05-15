@@ -1,0 +1,28 @@
+.CommentFilm {
+    display: flex;
+    justify-content: space-between;
+
+    >div {
+        width: 49%;
+    }
+
+    .img-left {
+        >img {
+            width: 100%;
+            border-radius: 15px;
+        }
+    }
+
+    .right {
+        >div {
+            display: flex;
+            margin-bottom: 1rem;
+            align-items: center;
+            gap: 10px;
+            >img {
+                width: 30%;
+                border-radius: 13px;
+            }
+        }
+    }
+}

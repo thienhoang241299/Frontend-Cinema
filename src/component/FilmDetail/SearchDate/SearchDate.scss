@@ -1,0 +1,13 @@
+.calender{
+    .search-box{
+        padding: 25px 0;
+        border-bottom: 3px solid #6366f1;
+    }  
+    .calender-detail{
+        padding-bottom: 15px;
+        border-bottom: 3px solid #6366f1;
+    }
+    .calender-detail:last-child{
+        border-bottom: 0;
+    }
+}

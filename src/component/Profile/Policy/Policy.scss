@@ -1,0 +1,40 @@
+.Policy{
+    width: 850px;
+    height: 1500px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25);
+    margin-top: 20px;
+    padding: 20px !important;
+    text-align: justify;
+    line-height: 25px;
+    
+    p{
+        color: black;
+    }
+    // display: flex;
+
+    .img{ //này là class nha !!
+        padding: 20px 50px;
+    }
+    img{
+        
+        height: auto;
+        width: 100%;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        border: 0px;
+        color: black;
+        margin-left: 40px;
+        margin-top: 10px;
+
+        li{
+            margin-top: 5px;
+            color: black;
+            font-family: Nunito Sans,sans-serif;
+            list-style: disc;
+            border: 0px;
+        }
+    }
+
+}

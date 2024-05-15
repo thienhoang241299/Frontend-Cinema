@@ -1,0 +1,45 @@
+.Movie {
+    .container {
+        width: 100%;
+    }
+
+    .top {
+        display: flex;
+        justify-content: center;
+
+        >div {
+            padding: 3rem 0;
+            width: 40%;
+
+        }
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: space-between;
+
+        >div {
+            width: 100%;
+
+            >img {
+                border-radius: 1rem;
+                width: 100%;
+                z-index: 1;
+            }
+
+            >div {
+
+                border-radius: 1rem;
+                position: relative;
+                width: 80%;
+                margin: auto;
+                margin-top: -3rem;
+                box-shadow: 5px 5px 5px 5px gray;
+                padding: 0.2rem 1rem 1.4rem 1.4rem;
+                box-sizing: border-box;
+                z-index: 2;
+                background: white;
+            }
+        }
+    }
+}

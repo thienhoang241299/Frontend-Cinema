@@ -1,0 +1,76 @@
+.Chair {
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    >div {
+        display: flex;
+        flex-direction: column;
+        gap: 1%;
+    }
+
+    .all {
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+
+        .chu {
+            display: block;
+            display: flex;
+            align-items: center;
+            margin: 0px 15px;
+        }
+
+        .ghe {
+            display: flex;
+            gap: 5px;
+            margin-top: 3px;
+
+            button {
+                padding: 5px;
+                box-sizing: border-box;
+                width: 2rem;
+                background: url('./chair.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                border: 0;
+                z-index: 1;
+            }
+
+            button:disabled {
+                background: url('./seatDisable.png') !important;
+            }
+
+            .doubleSeat {
+                background: url('./double.png');
+                height: 1.9rem;
+                width: 2.2rem;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+
+            }
+
+        }
+    }
+
+
+    .isHave {
+        background: url('./chairishave.png') !important;
+        border: 1px solid rgb(112, 112, 112);
+        z-index: 999;
+        color: white;
+    }
+
+    .dbIshave {
+        background: url('./doubleishave.png') !important;
+        border: 1px solid rgb(112, 112, 112);
+        z-index: 999;
+        color: white;
+    }
+
+    .non-border {
+        visibility: hidden;
+    }
+}

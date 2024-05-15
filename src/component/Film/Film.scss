@@ -1,0 +1,121 @@
+.Film {
+    padding-top: 5rem;
+
+    h1 {
+        font-size: 30px;
+        border-left: 5px solid rgb(0, 140, 255);
+        padding-left: 7px;
+    }
+
+    .film {
+        position: relative;
+
+        .p-tag {
+            position: absolute;
+        }
+
+        .age {
+            top: 1rem;
+            right: 1rem;
+
+        }
+
+        .point {
+            top: 3rem;
+            right: 1rem;
+        }
+
+        .time {
+            top: 1rem;
+            left: 1rem;
+        }
+
+        .view {
+            top: 3rem;
+            left: 1rem;
+        }
+
+        .time,
+        .view {
+            opacity: 0;
+            transition: opacity .35s ease;
+        }
+    }
+
+    >div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3%;
+        position: relative;
+
+        >div {
+            width: 22%;
+            margin-bottom: 4rem;
+
+            img {
+                width: 100%;
+                z-index: 1;
+                border-radius: 1rem;
+            }
+
+            >div {
+                position: relative;
+                top: -186px;
+                width: 100%;
+                margin-top: -4rem;
+                padding: 0.5rem 0;
+                box-sizing: border-box;
+                z-index: 99;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+
+                .buttonHover {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 10px;
+                    opacity: 0;
+                    transition: opacity .35s ease;
+
+
+
+                    >button {
+                        width: 50%;
+                        border: none;
+                        background-color: #63bdf1;
+                        padding: 10px;
+                        color: white;
+                        border-radius: 10px;
+                    }
+                }
+            }
+
+        }
+
+        .film:hover {
+
+            .buttonHover {
+                opacity: 1;
+                transition: opacity .35s ease;
+
+                button:hover {
+                    background-color: white;
+                    color: black;
+                    transition: .35s ease;
+                }
+
+            }
+
+            .time,
+            .view {
+                opacity: 1;
+                transition: opacity .35s ease;
+            }
+        }
+    }
+
+
+
+}

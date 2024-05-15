@@ -1,0 +1,43 @@
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+    padding-top: 30px;
+    .footer-container{
+        color: white;
+        width: 80%;
+        // background-color: aquamarine;
+        .footer-detail{
+            display: flex;
+            gap: 15%;
+        }
+        .footer-line{
+            border: 1px solid white;
+        }
+        .footer-icon{
+            display: flex;
+            gap: 15px;
+        }
+        .footer-company{
+            padding: 20px 0;
+            box-sizing: border-box;
+            display: flex;
+            gap: 15px;
+            flex-direction: row;
+            color: white;
+            >div{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            h3{
+                margin: 0;
+            }
+            p{
+                margin: 0;
+            }
+        }
+    }
+    
+}
